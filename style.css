@@ -101,7 +101,7 @@
 }
 
 
-/* @media(max-width:400px) {
+@media(max-width:400px) {
 
     *{
         margin: 0;
@@ -157,5 +157,5 @@
     .input {
         padding: 20px;
     }
-} */
+}
 
