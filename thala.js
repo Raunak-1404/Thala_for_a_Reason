@@ -54,6 +54,16 @@ function validate () {
         let button = document.getElementById('button');
         button.parentNode.removeChild(button);
 
+        let heading1 = document.getElementById("heading");
+        heading1.parentNode.removeChild(heading1);
+        
+        let text1 = document.getElementById("text1");
+        text1.parentNode.removeChild(text1);
+
+        
+        let input = document.getElementById("input");
+        input.parentNode.removeChild(input);
+
         meme.appendChild(image);
         image.style.marginTop = '30px';
         image.style.width = '700px'
